@@ -1,0 +1,20 @@
+{
+  "name": "protractor-cucumber-base",
+  "version": "1.0.0",
+  "description": "Protractor, Cucumber, and Selenium base for web scraping scripts and test",
+  "main": "index.js",
+  "dependencies": {
+    "cucumber": "^5.1.0",
+    "protractor": "^5.4.2",
+    "protractor-cucumber-framework": "^6.1.3",
+    "selenium-webdriver": "^4.0.0-alpha.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "src": "protractor protractor.conf.js",
+    "web-start": "webdriver-manager start",
+    "web-update": "webdriver-manager update"
+  },
+  "author": "",
+  "license": "ISC"
+}
