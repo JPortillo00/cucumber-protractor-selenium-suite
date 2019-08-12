@@ -18,11 +18,14 @@ and [Selenium](https://www.seleniumhq.org) base for testing.**
 3. install `java` (`sudo apt install default-jdk`).
 
 ## Docker Setup
+- Utilizes [Zalenium](https://github.com/zalando/zalenium)
+- Go to [Dashboard](http://localhost:4444/dashboard).
+- Go to http://localhost:4444/grid/admin/live.
 
-- WIP
+1. Run `bin\init_dockerize.sh`.
 
 ## Initialize 
-
+**(Skip steps 3 and 4 if using Docker).**
 1. Install packages `npm install` or run `bin\init_prohect.sh` and skip to 4.
 2. Run `cat ./package.example.js > ./package.conf.js`
 3. Run `webdriver-manager update` or `npm run web-update`.
