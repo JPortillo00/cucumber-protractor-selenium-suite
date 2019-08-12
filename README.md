@@ -32,4 +32,10 @@ and [Selenium](https://www.seleniumhq.org) base for testing.**
 4. Start the webdriver with `webdriver-manager start` or `npm run web-start`.
 5. Run the test with `npm run src`.
 
+## Tips
+
+- For `npm run src`:
+    - `--spec={feature_file}` allows you to run a specific feature.
+    - `--spec={feature_file}:{scenarios_line_#}` allows you to run a specific scenario.
+    - `--tags=@{tag}` allows you to run a specific scenarios with the selected tags.
 
