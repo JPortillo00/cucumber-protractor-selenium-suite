@@ -10,6 +10,7 @@ exports.config = {
     ],
     framework: 'custom',
     frameworkPath: require.resolve('protractor-cucumber-framework'),
+    //https://github.com/angular/protractor/blob/master/docs/browser-setup.md help browser options and setup.
     capabilities: {
         browserName: 'chrome',
         // Maximum number of browser instances that can run in parallel for this

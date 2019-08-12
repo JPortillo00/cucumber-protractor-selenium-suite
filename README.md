@@ -1,10 +1,18 @@
 # Protractor-Cucumber-Selenium Stack
-**Protractor, Cucumber, and Selenium base for testing**
+**[Protractor](https://www.protractortest.org/#/), 
+[Cucumber](https://cucumber.io/docs/gherkin/), 
+and [Selenium](https://www.seleniumhq.org) base for testing.**
 
-## Windows installation
+## Windows Installation
 1. Install [Node.js](https://nodejs.org/en/download/).
 2. Install [Java](https://www.oracle.com/technetwork/java/javase/downloads/index.html). You may have to restart to update your PATH.
-## Linux installation
+
+## Alternative Windows Installation
+1. Install [Chocolatey](https://chocolatey.org/install/) windows package manager.
+2. Install Node with `choco install nodejs`.
+3. Install Java with `choco install jdk8`
+
+## Linux Installation
 1. Install `node` (`sudo apt install nodejs`).
 2. Install `npm` (`sudo apt install npm`).
 3. install `java` (`sudo apt install default-jdk`).
@@ -13,11 +21,12 @@
 
 - WIP
 
-## Setup
+## Initialize 
 
-1. Install packages `npm install`.
-2. Run `webdriver-manager update` or `npm run web-update`.
-3. Start the webdriver with `webdriver-manager start` or `npm run web-start`.
-4. Run the test with `npm run src`.
+1. Install packages `npm install` or run `bin\init_prohect.sh` and skip to 4.
+2. Run `cat ./package.example.js > ./package.conf.js`
+3. Run `webdriver-manager update` or `npm run web-update`.
+4. Start the webdriver with `webdriver-manager start` or `npm run web-start`.
+5. Run the test with `npm run src`.
 
 
