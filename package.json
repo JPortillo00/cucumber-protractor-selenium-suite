@@ -12,6 +12,7 @@
   "devDependencies": {},
   "scripts": {
     "src": "protractor protractor.conf.js",
+    "example": "protractor protractor.example.js",
     "web-start": "webdriver-manager start",
     "web-update": "webdriver-manager update"
   },
