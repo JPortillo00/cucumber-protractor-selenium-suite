@@ -1,9 +1,9 @@
 const {After, Before, BeforeAll, AfterAll, Status} = require("cucumber");
 const {browser} = require('protractor');
+const {setDefaultTimeout} = require('cucumber');
+setDefaultTimeout(60000);
 
-BeforeAll({timeout: 100 * 1000}, async () => {
-    await browser.get(browser.params.baseURL);
-});
+BeforeAll({timeout: 100 * 1000}, async () => {});
 
 After(async function(scenario) {
     if (scenario.result.status === Status.FAILED) {
