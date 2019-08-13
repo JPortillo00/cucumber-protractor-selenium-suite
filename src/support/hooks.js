@@ -1,4 +1,4 @@
-const {After, Before, BeforeAll, AfterAll} = require("cucumber");
+const {After, Before, BeforeAll, AfterAll, Status} = require("cucumber");
 const {browser} = require('protractor');
 
 BeforeAll({timeout: 100 * 1000}, async () => {
