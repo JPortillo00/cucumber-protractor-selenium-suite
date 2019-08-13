@@ -23,7 +23,7 @@ exports.config = {
         // Default is false.
         shardTestFiles: false,
         chromeOptions:{
-            args:[]
+            args:["--headless", "--disable-gpu", "--incognito"]
         }
     },
 
