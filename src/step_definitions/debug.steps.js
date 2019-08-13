@@ -3,7 +3,7 @@ const {Given, When, Then} = require("cucumber");
 const CustomNavigation = require('../support/navigation');
 
 Then(/^I wait (.*) seconds$/, async (seconds) => {
-    console.log("Sleeping for " + seconds * 1000 + " seconds.");
+    console.log("\nSleeping for " + seconds + " seconds.");
     await browser.sleep(seconds * 1000);
 });
 
