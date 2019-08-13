@@ -37,6 +37,7 @@ exports.config = {
         tags: false,
         require: [
             './src/step_definitions/*.steps.js',
+            './src/support/hooks.js',
         ],
     },
 };
